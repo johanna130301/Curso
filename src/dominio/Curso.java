@@ -31,6 +31,7 @@ public class Curso {
     public void setEstudiantesEncimaPromedio(){
         int estudiantes=0;
         double promedio=0;
+        //codigo duplicado ya lo tiene en el aterior metodo
         for(int i=0;i<12;i++){
             //Necesitamos de una auxiliar para almacenar notas
             double aux=notas[i];
